@@ -4,4 +4,7 @@ body {
   box-sizing: border-box;
   background-color: black;
   font-family: "JetBrains Mono", monospace;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
