@@ -1,5 +1,5 @@
 import { PICTURES } from "../../data"
-import Caroussel from "../caroussel/caroussel"
+
 import "./mainpic.css"
 
 export default function MainPicture() {
@@ -10,9 +10,14 @@ export default function MainPicture() {
             <img className="main-pic" src={PICTURES[0].image} alt="couloir rose" />
         </div>
         <div className="low">
-            <Caroussel/>
+            <div className="caroussel">
+                <ul >
+                    { PICTURES.map((item) => (
+                    <li key={item.title}><img src={item.image} alt="" /></li>
+                    ))}
+                </ul>
+            </div>
         </div>
     </>
-        
     )
 }

@@ -1,5 +1,3 @@
-
-
 .main-pic {
     width: 1000px; 
     margin-bottom: 15px;
@@ -11,4 +9,29 @@ h1 {
     font-weight: 200;
     font-size: 3rem;
     margin-top: 50px;
+}
+
+.caroussel {
+    width: 1000px;
+}
+
+.caroussel ul {
+    
+    max-width: 1000px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.caroussel ul li {
+    margin: 0;
+    list-style: none;
+}
+
+.caroussel img {
+    width: 320px;
+    cursor: pointer;
 }
