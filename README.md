@@ -8,5 +8,5 @@ Before I created components and design on figma
 
 Beginner project allow to practice React
 
-1 - You have to click on thumb pictures below, and display it in the main section
-2 - Create an toggle event listener that allow you to show informations of every pictures on the side
+1. You have to click on thumb pictures below, and display it in the main section <br>
+2. Create an toggle event listener that allow you to show informations of every pictures on the side
