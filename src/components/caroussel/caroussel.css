@@ -1,0 +1,19 @@
+.caroussel {
+    max-width: 1000px;
+}
+
+.caroussel ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caroussel ul li {
+    margin: 0;
+}
+
+.caroussel img {
+    width: 320px;
+    
+}
